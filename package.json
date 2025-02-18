@@ -1,0 +1,18 @@
+{
+  "name": "hand-camera",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "@tensorflow-models/hand-pose-detection": "^2.0.1",
+    "@tensorflow/tfjs-backend-webgl": "^4.22.0"
+  }
+}
