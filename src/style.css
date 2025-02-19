@@ -8,6 +8,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#app {
+  position: relative;
+  margin:0 auto;
+}
+
 video {
   display:none;
+}
+
+#overlayCanvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+#previewCanvas {
+  display:block;
+  z-index: 1;
+}
+
+#captureImage{
+  display: block;
 }
